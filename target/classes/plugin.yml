@@ -1,0 +1,9 @@
+name: CottonSwab
+main: com.fawkes.plugin.cottonswab.CottonSwabPlugin
+version: 0,1
+commands:
+  clearplot:
+    description: Clears the player's plot.
+    usage: /clearplot <player name> <player's plot number>
+    permission: cottonswab.clearplot
+    permission-message: You don't have permission to do that!
